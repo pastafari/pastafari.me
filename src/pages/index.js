@@ -8,13 +8,11 @@ import SEO from "../components/seo"
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <h1>Hallo alle zusammen!</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
+    <h1>Someday this will be a proper site!</h1>
+    <p>Until then enjoy a random image from Unsplash!</p>
     <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
+      <img src="https://source.unsplash.com/random/800x600"></img>
     </div>
-    <Link to="/page-2/">Go to page 2</Link>
   </Layout>
 )
 
