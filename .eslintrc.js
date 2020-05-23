@@ -1,4 +1,4 @@
-{
+module.exports = {
     "env": {
         "browser": true,
         "node": true
@@ -13,4 +13,4 @@
         "eslint:recommended",
         "plugin:react/recommended"
     ]
-}
+};
