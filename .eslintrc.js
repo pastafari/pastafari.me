@@ -12,5 +12,9 @@ module.exports = {
     "extends": [
         "eslint:recommended",
         "plugin:react/recommended"
-    ]
+    ],
+    "rules": {
+        // always require semi-colons for statements
+        "semi": "error"
+    }
 };
